@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView" type="id" />
+    <item name="geminiBtn" type="id" />
+    <item name="taurusBtn" type="id" />
+    <item name="aquariusBtn" type="id" />
+    <item name="ariesBtn" type="id" />
+    <item name="piscesBtn" type="id" />
+    <item name="cancerBtn" type="id" />
+    <item name="libraBtn" type="id" />
+    <item name="capricornBtn" type="id" />
+    <item name="scorpioBtn" type="id" />
+    <item name="sagitarusBtn" type="id" />
+    <item name="virgoBtn" type="id" />
+</resources>

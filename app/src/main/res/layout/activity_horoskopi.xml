@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horoskopi">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get any information about zodiacs"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/geminiBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="240dp"
+        android:onClick="onGeminiBtn"
+        android:text="Gemini"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/taurusBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="onTaurusBtn"
+        android:text="Taurus"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piscesBtn"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/aquariusBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="136dp"
+        android:onClick="onAquariusBtn"
+        android:text="Aquarius"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/geminiBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ariesBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:onClick="onAriesBtn"
+        android:text="Aries"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/aquariusBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/piscesBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:onClick="onPiscesBtn"
+        android:text="Pisces"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ariesBtn"
+        app:layout_constraintVertical_bias="0.014"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cancerBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="292dp"
+        android:onClick="onCancerBtn"
+        android:text="Cancer"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/libraBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="448dp"
+        android:onClick="onLibraBtn"
+        android:text="Libra"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/capricornBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.124"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/capricornBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="604dp"
+        android:onClick="onCapricornBtn"
+        android:text="Capricorn"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.428"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/scorpioBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="344dp"
+        android:onClick="onScorpioBtn"
+        android:text="Scorpio"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/capricornBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sagitarusBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="552dp"
+        android:onClick="onSagittarusBtn"
+        android:text="Sagittarus"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/capricornBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/virgoBtn"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:onClick="onVirgoBtn"
+        android:text="Virgo"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/libraBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancerBtn"
+        app:layout_constraintVertical_bias="0.528"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

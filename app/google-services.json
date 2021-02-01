@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "996215501103",
+    "project_id": "horoskopi-a740d",
+    "storage_bucket": "horoskopi-a740d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996215501103:android:947e70683fb937048831da",
+        "android_client_info": {
+          "package_name": "com.example.horoscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996215501103-ar15qf8q39itvathqpjtlcn6ndngfcg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLzjKi61SW-7NEtoODZ8l6TEQPYzJ3fDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996215501103-ar15qf8q39itvathqpjtlcn6ndngfcg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
